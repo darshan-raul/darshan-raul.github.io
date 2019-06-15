@@ -372,6 +372,16 @@ body{
     margin-top:4vh;
 }
 
+.skills > li{
+    display: inline-block;
+    border: 1px solid #0bceaf;
+    padding: 4px 10px;
+    border-radius: 4px;
+
+}
+.skills > li:hover {
+    background-color: #00fcd2;
+  }
 ::selection {
     color:var(--bg-color); 
     background:var(--text-color);
