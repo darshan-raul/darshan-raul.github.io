@@ -52,7 +52,7 @@ body{
     flex-direction:column;
     justify-content:center;
     text-align:left;
-    background:var(--background-image) center center;
+    background-color:#4f4e4e;
     background-size: cover !important;
     background-repeat:no-repeat;
     position:fixed;
@@ -124,7 +124,7 @@ body{
 #background {
     width:100vw;
     height:55vh;
-    background-color: #0bceaf;
+    background:var(--background-background);
     background-size:cover !important;
     background-repeat:no-repeat;
     position: absolute;
@@ -484,3 +484,50 @@ body{
   .css {width: 80%; background-color: #808080;}
   .js {width: 65%; background-color: #808080;}
   .php {width: 60%; background-color: #808080;}
+
+
+  button,
+.button {
+	position: relative;
+	background-color: dodgerblue;
+	color: white;
+	border-radius: 0.2em;
+	border: none;
+	box-shadow: 0 0.125em 0.125em rgba(0, 0, 0, 0.3);
+	box-sizing: border-box;
+	display: inline-block;
+	cursor: pointer;
+	user-select: none;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: normal;
+	font-weight: bold;
+	text-align: center;
+	outline: none;
+	padding: 0.6em;
+	margin: 0.2em;
+	transition: all 0.1s;
+	min-width: 10em;
+}
+button:focus:not(:disabled),
+.button:focus:not(:disabled),
+button:hover:not(:disabled),
+.button:hover:not(:disabled) {
+	opacity: 0.8;
+	top: -0.1em;
+	box-shadow: 0 0.2em 0.1em rgba(0, 0, 0, 0.2);
+}
+button:hover:active,
+.button:hover:active {
+	top: 0.1em;
+	box-shadow: 0 0.02em 0.125em rgba(0, 0, 0, 0.4);
+	transition: all 0.05s;
+}
+button:disabled,
+.button:disabled {
+	cursor: initial;
+	background-color: silver;
+}
+a.button {
+	text-decoration: none;
+}
