@@ -1,0 +1,20 @@
+[
+  {
+    "url_title": "scaling-kubernetes-production",
+    "title": "Scaling Kubernetes in Production",
+    "sub_title": "Lessons learned from managing 100+ clusters.",
+    "top_image": "https://images.unsplash.com/photo-1667372393119-c81c0cda0a29?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "url_title": "terraform-best-practices",
+    "title": "Terraform Best Practices 2025",
+    "sub_title": "Modular architecture for multi-cloud deployments.",
+    "top_image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "url_title": "serverless-architecture-patterns",
+    "title": "Serverless Architecture Patterns",
+    "sub_title": "Event-driven designs for high scalability.",
+    "top_image": "https://images.unsplash.com/photo-1558494949-ef526b01201b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+  }
+]
